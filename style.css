@@ -1,0 +1,468 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    margin: 0;
+    height: 50px; 
+    width: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero{
+    background-image: url(images/heroimage.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1{
+    font-size: 40px;
+    
+}
+
+.hero button{
+    background-color: orangered;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+   font-size: 1.2rem;
+   cursor: pointer;
+   margin-top: 20px;
+   
+}
+.hero p {
+    color: white;
+    font-size: 1.1rem;
+  
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.advantages {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.advantages h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.advantages p {
+    font-size: 1.1rem;
+    color: #666;
+    
+  
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.black {
+    color: black;
+}
+
+.green {
+    color: green;
+}
+
+.qualities {
+   display: inline-block;
+    width: 13%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 100px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+    transition: transform 0.3s ease;
+}
+
+.qualities:hover {
+    transform: translateY(-10px);
+}
+
+.qualities img {
+  
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.qualities h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.qualities p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.about{
+    background: url(images/about.png);
+    background-size: cover;
+    color: white;
+  height: auto;
+    padding: 20px 60px;
+}
+.about h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-p{
+    max-width: 50%;
+}
+
+.about button{
+    background-color: orangered;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+   font-size: 1.2rem;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+.servics{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.servics h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.servics p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+   
+}
+
+.servics .box {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  
+}
+
+.service-card {
+    background-color: #ecececd4;
+    border-radius: 5px;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    display: inline-block;
+    
+}
+
+.service-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.service-card .star img {
+    width: 80px;
+
+}
+
+.service-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.service-card a {
+    color: #66cc33;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service-card a:hover {
+    text-decoration: underline;
+}
+
+
+
+.portfolio {
+    background-color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+.portfolio h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+.portfolio .white{
+    color: white;
+}
+
+.portfolio p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin:  auto;
+    text-align: center;
+   
+}
+
+.portfolio  ul{
+    list-style: none;
+    display: flex;
+ justify-content: center;
+margin-right: 5%;
+
+}
+.portfolio  ul li{
+    margin-left: 20px;   
+}
+.portfolio ul li a {
+    color: white;
+    text-decoration: none;
+}
+.portfolio  ul li a:hover{
+    color: orangered;
+}
+
+
+/* our process */
+.process h2{
+ font-size: 2.5rem;
+ text-align: center;
+ margin-bottom: auto;
+}
+.process p{
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin:  auto;
+    text-align: center;
+}
+.process-steps {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+.step {
+    text-align: center;
+    position: relative;
+    width: 15%;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+   
+    background-color: #FFCC00; /* Yellow circle */
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    
+    border-radius: 50%; /* Makes the circle round */
+    margin: 0 auto;
+  
+    position: relative;
+    z-index: 1;
+}
+.step-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    margin-top: -10px;
+    border-radius: 50%;
+    border-color:#ccc;
+    border-style: groove;
+    border-width: 4px;
+}
+.step h3 {
+    margin: 10px 0;
+    color: #333;
+}
+.step p {
+    color: #999;
+    font-size: 14px;
+}
+.step::after {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 107%;
+    width: 59%;
+    height: 4px;
+    background-color: #ccc;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+.step:last-child::after {
+    content:none ;
+}
+
+/* footer */
+footer {
+    background-color: #729C00;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #ffcc00;
+}
+
+.footer-column .social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #333;
+}
+
+/* Contact Icons */
+.footer-column i {
+    margin-right: 10px;
+    color: #ffcc00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .qualities {
+        width: 45%;
+    }
+
+    .service-card {
+        width: 80%;
+    }
+
+    .portfolio ul {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
